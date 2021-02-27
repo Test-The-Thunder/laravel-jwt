@@ -14,7 +14,7 @@ class UserController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth:api', ['except' => ['login']]); //Every Funtion is call with token, except login
+        $this->middleware('jwt.verify', ['except' => ['login']]); //Every Funtion is call with token, except login
         Auth::shouldUse('api'); // Default Guard is "WEB" hear we change to "api" To Specific Controller
     }
 
