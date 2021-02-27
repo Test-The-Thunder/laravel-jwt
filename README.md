@@ -1,4 +1,4 @@
-<p align="center"><a href="http://karbh.com" target="_blank"><img src="public/images/logo-10.png"></a></p>
+<p align="center"><a href="http://karbh.com" target="_blank"><img src="/public/images/logo-10.png"></a></p>
 
 ## About 
 
